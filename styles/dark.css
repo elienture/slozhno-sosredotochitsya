@@ -5,8 +5,35 @@
 */
 
 .page.theme_dark {
+  --background-image: url("../images/cover-image-dark.png");
+  --background-color: #000028;
+  --title-main-color: #DB00FF;
+  --decor-color: #FF0070;
+  --highlight-color: #FF0070;
+  --button-color: #FF0070;
+  --text-color: #F1B2CE;
+  --heading-text: #FF0070;
+  --button-border: #FF0070;
+  --button-border-hover: rgba(255, 0, 112, 0.40);
+  --rec-decoration: #FF0070;
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-image: url("../images/cover-image-dark.png");
+  --background-color: #000028;
+  --title-main-color: #DB00FF;
+  --decor-color: #FF0070;
+  --highlight-color: #FF0070;
+  --button-color: #FF0070;
+  --text-color: #F1B2CE;
+  --heading-text: #FF0070;
+  --button-border: #FF0070;
+  --button-border-hover: rgba(255, 0, 112, 0.40);
+  --rec-decoration: #FF0070;
+  }
 }
