@@ -159,6 +159,7 @@
 
 .heading_text_highlight {
   display: inline-block;
+  color: var(--header_text);
   background-color: var(--highlight-color);
   font-size: 18px;
   font-style: normal;
